@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         lvMovie = findViewById(R.id.listViewMovie);
 
         alMovieList = new ArrayList<>();
-        MovieItem item1 = new MovieItem("Avengers Infinity War", "Release Date: 2018.04", "5");
-        MovieItem item2 = new MovieItem("Justice League", "Release Date: 2017.11", "6");
+        MovieItem item1 = new MovieItem("Avengers Infinity War", "Release Date: 2018.04", "PG13");
+        MovieItem item2 = new MovieItem("Justice League", "Release Date: 2017.11", "G");
         alMovieList.add(item1);
         alMovieList.add(item2);
 
